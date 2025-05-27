@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "mv ./dist/.git ./.git-page && vite build && mv ./.git-page ./dist/.git",
     "preview": "vite preview"
   },
   "devDependencies": {
