@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .bg-radial {
+        background: radial-gradient(circle, #1e2939 0%,  #535d6d 40%, #1e2939 100%);
+    }
+}
